@@ -18,7 +18,9 @@
             <a href="#">Contact</a>
         </div>
     </div>
-    <span style="font-size:30px;cursor:pointer" id="openNav">&#9776; open</span>
+        <div class="openNav">
+            <i class="fa-solid fa-bars" id="openNav"> Open</i>
+        </div>    
     </div>
 
     @show
