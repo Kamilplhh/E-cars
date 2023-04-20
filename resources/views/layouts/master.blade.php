@@ -12,9 +12,9 @@
     <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
         <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
+            <a href="#">Garage</a>
+            <a href="#">Offers</a>
+            <a href="#">News</a>
             <a href="#">Contact</a>
         </div>
     </div>
