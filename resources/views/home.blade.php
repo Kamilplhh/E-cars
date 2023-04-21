@@ -3,18 +3,6 @@
 @section('title', 'home')
 
 @section('content')
-<div class="landing">
-    <video id="video" height="100%" width="100%" frameborder="0" loop autoplay muted
-        src="images/background.mp4">
-    </video>
-
-    <div id="landingOverlay">
-        <h2>E-cars</h2><br>
-        <h6>Created by KamilPLHH</h6>
-    </div>
-</div>
-
-
 <div class="parallax-div">
     <div class="parallax first">
         <div class="parallax-inside">
@@ -27,7 +15,7 @@
                 Intention of it is <b>simple</b>. Lets show people how our <b>"world"</b> can be amazing.
                 Page should bring you a vibe of <b>night</b> time <b>racing</b> like in in fast and furious and so on.
                 Go lower and findout more about us and remember
-                <h3 style="text-align: center;">Enjoy!</h3>
+                <h3 style="text-align: center; margin-top: 1vh;">Enjoy!</h3>
             </div>
         </div>
     </div>  
@@ -35,23 +23,33 @@
     <div class="parallax second">
         <div class="parallax-inside">
             <div class="parallax-text right1">
-
+                <div class="text-header">
+                    <h2>What I can find here?</h2>
+                </div>
+                Answer is simple, things you were looking in moment you choose this website.<br>
+                <a href="/Offers">Offers</a> page is for best price-quality ratio cars you can get at diffrent price pools.
+                At <a href="/News">news</a> section we are trying to post fresh information about upcoming cars or intresting mods that were recently made.
             </div>
         </div>
     </div>  
 
     <div class="parallax third">
         <div class="parallax-inside">
-            <div class="parallax-text left">
-
+            <div class="parallax-text center">
+                “You Know I Would’ve Won That Race If You Didn’t Cheat, Right?” <br>
+                – Brian O’Conner
             </div>
         </div>
     </div> 
 
     <div class="parallax" style="background: url('images/mercedes.jpg') repeat fixed 100%;">
         <div class="parallax-inside">
-            <div class="parallax-text right">
-                
+            <div class="parallax-text left">
+            <div class="text-header">
+                    <h2>Site same as background</h2>
+                </div>
+                Remember, this site is just for a project. There are 0 commercial intentions overhere. It was designed with idea to make u feel vibe of some "dark unlegal racing stuff".<br>
+                <b>Hope u enyojed your visit here. In contact section you can find my socials and github link. Much love!
             </div>
         </div>
     </div> 
