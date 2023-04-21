@@ -99,11 +99,12 @@ body{
   .back {
     width: 8vh;
     height: 8vh;
+    margin-top: -8vh;
     background-color: white;
     position: -webkit-sticky;
     position: sticky;
     top: 90vh;
-    margin: 0 0 4vh 4vh;
+    margin: 0 0 0 4vh;
     text-align: center;
     padding-top: 4vh;
     clip-path: circle(29.7% at 50% 50%);

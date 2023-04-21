@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @vite('resources/css/app.css')
-@section('title', 'home')
+@section('title', 'Garage')
 
 @section('content')
 <div class="parallax-div">
@@ -52,6 +52,7 @@
                 <b>Hope u enyojed your visit here. In contact section you can find my socials and github link. Much love!
             </div>
         </div>
+        <a href="#nav"> <i class="fa-solid fa-arrow-up fa-bounce fa-xl back" style="color:black;"></i> </a>
     </div> 
 </div>
 

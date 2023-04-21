@@ -18,13 +18,12 @@
             <a href="/Contact">Contact</a>
         </div>
     </div>
-        <div class="openNav">
+        <div class="openNav" id="nav">
             <i class="fa-solid fa-bars" id="openNav"> Open</i>
         </div>    
     </div>
 
     @show
-
     <div class="content">
         <div class="landing">
             <video id="video" height="100%" width="100%" frameborder="0" loop autoplay muted
@@ -36,7 +35,6 @@
                 <h6>Created by KamilPLHH</h6>
             </div>
         </div>
-        <a href="#video"> <i class="fa-solid fa-arrow-up fa-bounce fa-xl back" style="color:black;"></i> </a>
         @yield('content')
         
     </div>     
