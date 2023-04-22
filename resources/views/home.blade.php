@@ -1,5 +1,4 @@
 @extends('layouts.master')
-@vite('resources/css/app.css')
 @section('title', 'Garage')
 
 @section('content')
