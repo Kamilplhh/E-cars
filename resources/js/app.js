@@ -16,3 +16,13 @@ closeNav.onclick = function(){
     document.getElementById("landingOverlay").style.filter = "blur(0px)";
     openNav.style.filter = "blur(0px)";
 }
+
+const offersNavbutton = document.getElementById("offersNavbutton");
+const offersNav = document.getElementById("offersNav");
+
+offersNavbutton.onclick = function(){
+    offersNav.style.height = "12vh";
+    setTimeout(function() {
+        offersNav.style.height = "0%";
+    }, 4000)
+}

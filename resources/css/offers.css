@@ -1,8 +1,60 @@
+.offers {
+    width: 5vh;
+    height: 5vh;
+    background-color: rgb(88, 86, 86);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 89vh;
+    margin: 0 0 0 3vh;
+    text-align: center;
+    padding-top: 2.7vh;
+    clip-path: circle(29.7% at 50% 50%);
+  }
+
+.offers:hover{
+    cursor:pointer;
+}  
+
+.offersNav::-webkit-scrollbar {
+    display: none;
+  }
+
+.offersNav {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    top: 87vh;
+    margin: 0 0 0 2vh;
+    width: auto;
+    background-color: rgb(114, 99, 99);
+    border-radius: 5%;
+    transition: 0.4s;
+    height: 0;
+    overflow-x: hidden;
+}
+
+.offersNav a {
+    text-decoration: none;
+    color: white;
+}
+
+.offersNav a:hover {
+    text-decoration: none;
+    color: rgb(235, 152, 28);
+}
+
+.offersNav-content {
+    position: relative;
+    text-align: center;
+}
+
 .block-header {
     text-align: center;
-    margin-top: 7vh;
+    margin-top: 8vh;
     margin-bottom: 1.5vh;
     color: white;
+    width: 100%;
 }
 
 .block-area {
