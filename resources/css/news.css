@@ -1,0 +1,53 @@
+.block-area {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.news-description {
+    position: relative;
+    height: 42vh;
+    width: 0;
+    margin-left: -20vw;
+    background-color: white;
+    transition: 0.3s;
+    overflow-x: hidden;
+    border-radius: 1%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.news-block {
+    height: 40vh;
+    width: 20vw;
+    background-color: aqua;
+    margin: 3vh;
+}
+
+.news-car {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 40vh;
+    width: 20vw;
+    text-align: center;
+    position: relative;
+    top: -40vh;
+    z-index: 1;
+}
+
+.news-image {
+    background-color: bisque;
+} 

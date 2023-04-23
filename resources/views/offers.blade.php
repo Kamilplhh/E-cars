@@ -1,5 +1,6 @@
 @extends('layouts.master')
 @vite('resources/css/offers.css')
+@vite('resources/js/offers.js')
 @section('title', 'Offers')
 
 @section('content')
@@ -29,6 +30,7 @@
             Samochod wyprodukowany cos tam cos tam jest git i szybki
         </div>
     </div>
+</div>
 
 <h1 class="block-header" id="two-five"> Cars 2000$-5000$</h1>
 <div class="block-area">
@@ -64,6 +66,5 @@
             Samochod wyprodukowany cos tam cos tam jest git i szybki
         </div>
     </div>
-
 </div>
 @stop
