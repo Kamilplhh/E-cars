@@ -16,55 +16,67 @@
 
 <h1 class="block-header" id="five-two"> Cars 500$-2000$</h1>
 <div class="block-area">
-    <div class="block">
-        <div class="image">
-        </div>
+    @foreach($twoKoffers as $twoKoffer)
+        <div class="block">
+            <div class="image">
+                <img src="{{ url('images/'.$twoKoffer->src) }}">
+            </div>
 
-        <div class="car-name">
-            Samochodzik<br>
-            200$<br>
-            1903-2004
-        </div>
+            <div class="car-name">
+                {{ twoKoffer->Car }}<br>
+                {{ twoKoffer->Price }}<br>
+                {{ twoKoffer->Production-start }}-{{ twoKoffer->Production-end }}
+            </div>
 
-        <div class="car-description">
-            Samochod wyprodukowany cos tam cos tam jest git i szybki
+            <div class="car-description">
+                {{ twoKoffer->Country }}<br>
+                {{ twoKoffer-> Description }}
+            </div>
         </div>
-    </div>
+    @endforeach
 </div>
 
 <h1 class="block-header" id="two-five"> Cars 2001$-9999$</h1>
 <div class="block-area">
-    <div class="block">
-        <div class="image">
-        </div>
+    @foreach($tenKoffers as $tenKoffer)
+        <div class="block">
+            <div class="image">
+                <img src="{{ url('images/'.$tenKoffer->src) }}">
+            </div>
 
-        <div class="car-name">
-            Samochodzik<br>
-            200$<br>
-            1903-2004
-        </div>
+            <div class="car-name">
+                {{ tenKoffer->Car }}<br>
+                {{ tenKoffer->Price }}<br>
+                {{ tenKoffer->Production-start }}-{{ tenKoffer->Production-end }}
+            </div>
 
-        <div class="car-description">
-            Samochod wyprodukowany cos tam cos tam jest git i szybki
+            <div class="car-description">
+                {{ tenKoffer->Country }}<br>
+                {{ tenKoffer-> Description }}
+            </div>
         </div>
-    </div>
+    @endforeach
 </div>
 
 <h1 class="block-header" id="five-onefive"> Cars 10000$+</h1>
 <div class="block-area">
-    <div class="block">
-        <div class="image">
-        </div>
+    @foreach($plusOffers as $plusOffer)
+        <div class="block">
+            <div class="image">
+                <img src="{{ url('images/'.$tenKoffer->src) }}">
+            </div>
 
-        <div class="car-name">
-            Samochodzik<br>
-            200$<br>
-            1903-2004
-        </div>
+            <div class="car-name">
+                {{ plusOffer->Car }}<br>
+                {{ plusOffer->Price }}<br>
+                {{ plusOffer->Production-start }}-{{ plusOffer->Production-end }}
+            </div>
 
-        <div class="car-description">
-            Samochod wyprodukowany cos tam cos tam jest git i szybki
+            <div class="car-description">
+                {{ plusOffer->Country }}<br>
+                {{ plusOffer-> Description }}
+            </div>
         </div>
-    </div>
+    @endforeach
 </div>
 @stop
