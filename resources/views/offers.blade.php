@@ -9,8 +9,8 @@
 <div id="offersNav" class="offersNav">
     <div class="offersNav-content">
         <a href="#five-two">500$-2000$<br></a>
-        <a href="#two-five">2000$-5000$<br></a>
-        <a href="#five-onefive">5000$-15000$</a>
+        <a href="#two-five">2001$-9999$<br></a>
+        <a href="#five-onefive">10000$+</a>
     </div>
 </div>
 
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<h1 class="block-header" id="two-five"> Cars 2000$-5000$</h1>
+<h1 class="block-header" id="two-five"> Cars 2001$-9999$</h1>
 <div class="block-area">
     <div class="block">
         <div class="image">
@@ -50,7 +50,7 @@
     </div>
 </div>
 
-<h1 class="block-header" id="five-onefive"> Cars 5000$-15000$</h1>
+<h1 class="block-header" id="five-onefive"> Cars 10000$+</h1>
 <div class="block-area">
     <div class="block">
         <div class="image">
