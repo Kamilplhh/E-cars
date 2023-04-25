@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('cars', function (Blueprint $table) {
             $table->id();
             $table->string('Car');
-            $table->string('Description');
+            $table->text('Description');
             $table->string('Country')->nullable();
             $table->integer('Price')->nullable();
-            $table->date('Production-start')->nullable();
-            $table->date('Production-end')->nullable();
+            $table->date('Production_start')->nullable();
+            $table->date('Production_end')->nullable();
             $table->string('Type');
             $table->string('src');
             $table->timestamps();

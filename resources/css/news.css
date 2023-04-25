@@ -10,10 +10,10 @@
 
 .news-description {
     position: relative;
-    height: 42vh;
+    height: 60vh;
     width: 0;
-    margin-left: -20vw;
-    background-color: white;
+    margin-left: -10vw;
+    background-color: rgb(92, 97, 97);
     transition: 0.3s;
     overflow-x: hidden;
     border-radius: 1%;
@@ -27,10 +27,11 @@
 }
 
 .news-block {
-    height: 40vh;
-    width: 20vw;
-    background-color: aqua;
+    height: 60vh;
+    width: 40vw;
+    background-color: rgb(92, 97, 97);
     margin: 3vh;
+    border-radius: 1%;
 }
 
 .news-car {
@@ -40,14 +41,14 @@
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    height: 40vh;
-    width: 20vw;
+    height: 60vh;
+    width: 40vw;
     text-align: center;
     position: relative;
-    top: -40vh;
+    top: -55vh;
     z-index: 1;
 }
 
 .news-image {
-    background-color: bisque;
+    border-radius: 1%;
 } 

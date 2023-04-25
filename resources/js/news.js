@@ -9,6 +9,6 @@ for (const information of informations){
         setTimeout(function() {
             NewsDesc.style.width = "0";
             NewsDesc.style.padding = "0";
-        }, 4000)
+        }, 7000)
     });
 }

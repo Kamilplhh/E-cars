@@ -10,27 +10,27 @@ class CarRepository implements CarRepositoryInterface
     public function getNews()
     {
         return Car::where('Type', 'news')
-                            ->get();
+                        ->get();
     }
 
     public function getOffersUnder2k()
     {
         return Car::where('Type', 'offers')
-                            ->where('Price' <= 2000)
-                            ->get();
+                        ->where('Price', '<=', 2000)
+                        ->get();
     }
 
     public function getOffersUnder10k()
     {
         return Car::where('Type', 'offers')
-                            ->whereBetween('Price', [2000, 10000])
-                            ->get();
+                        ->whereBetween('Price', [2001, 9999])
+                        ->get();
     }
 
     public function getOffersPlus10k()
     {
         return Car::where('Type', 'offers')
-                            ->where('Price' >= 10000)
-                            ->get();
+                        ->where('Price', '>=', 10000)
+                        ->get();
     }
 }

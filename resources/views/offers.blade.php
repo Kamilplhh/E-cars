@@ -19,18 +19,18 @@
     @foreach($twoKoffers as $twoKoffer)
         <div class="block">
             <div class="image">
-                <img src="{{ url('images/'.$twoKoffer->src) }}">
+                <img style="width: 100%; height: 100%; border-radius: 1%;" src="{{ url('images/'.$twoKoffer->src) }}">
             </div>
 
             <div class="car-name">
-                {{ twoKoffer->Car }}<br>
-                {{ twoKoffer->Price }}<br>
-                {{ twoKoffer->Production-start }}-{{ twoKoffer->Production-end }}
+                {{ $twoKoffer->Car }}<br>
+                {{ $twoKoffer->Country }}<br>
+                {{ $twoKoffer->Price }}$<br>
+                Start {{ $twoKoffer->Production_start }} - End {{ $twoKoffer->Production_end }}
             </div>
 
             <div class="car-description">
-                {{ twoKoffer->Country }}<br>
-                {{ twoKoffer-> Description }}
+                {{ $twoKoffer-> Description }}
             </div>
         </div>
     @endforeach
@@ -41,18 +41,17 @@
     @foreach($tenKoffers as $tenKoffer)
         <div class="block">
             <div class="image">
-                <img src="{{ url('images/'.$tenKoffer->src) }}">
+            <img style="width: 100%; height: 100%; border-radius: 1%;"  src="{{ url('images/'.$tenKoffer->src) }}">
             </div>
 
             <div class="car-name">
-                {{ tenKoffer->Car }}<br>
-                {{ tenKoffer->Price }}<br>
-                {{ tenKoffer->Production-start }}-{{ tenKoffer->Production-end }}
+                {{ $tenKoffer->Car }}<br>
+                {{ $tenKoffer->Price }}$<br>
+                Start {{ $tenKoffer->Production_start }} - End {{ $tenKoffer->Production_end }}
             </div>
 
             <div class="car-description">
-                {{ tenKoffer->Country }}<br>
-                {{ tenKoffer-> Description }}
+                {{ $tenKoffer-> Description }}
             </div>
         </div>
     @endforeach
@@ -63,18 +62,18 @@
     @foreach($plusOffers as $plusOffer)
         <div class="block">
             <div class="image">
-                <img src="{{ url('images/'.$tenKoffer->src) }}">
+            <img style="width: 100%; height: 100%; border-radius: 1%;" src="{{ url('images/'.$plusOffer->src) }}">
             </div>
 
             <div class="car-name">
-                {{ plusOffer->Car }}<br>
-                {{ plusOffer->Price }}<br>
-                {{ plusOffer->Production-start }}-{{ plusOffer->Production-end }}
+                {{ $plusOffer->Car }}<br>
+                {{ $twoKoffer->Country }}<br>
+                {{ $plusOffer->Price }}$<br>
+                Start {{ $plusOffer->Production_start }} - End {{ $plusOffer->Production_end }}
             </div>
 
             <div class="car-description">
-                {{ plusOffer->Country }}<br>
-                {{ plusOffer-> Description }}
+                {{ $plusOffer-> Description }}
             </div>
         </div>
     @endforeach
