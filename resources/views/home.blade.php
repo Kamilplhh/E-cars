@@ -23,7 +23,7 @@
         <div class="parallax-inside">
             <div class="parallax-text right1">
                 <div class="text-header">
-                    <h2>What I can find here?</h2>
+                    <h2>What can I find here?</h2>
                 </div>
                 Answer is simple, things you were looking in moment you choose this website.<br>
                 <a href="/Offers">Offers</a> page is for best price-quality ratio cars you can get at diffrent price pools.

@@ -133,6 +133,11 @@ body{
                 repeat fixed 100%;
   }
 
+  .contact {
+    background: url("https://detectio.pl/wp-content/uploads/2022/10/group-people-working-out-business-plan-office.jpg")
+                repeat fixed 100%;
+  }
+
   .parallax-text {
     position: absolute;
     background-color: rgb(70, 68, 68);
